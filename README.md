@@ -1,4 +1,4 @@
-# 🎓 Alumni Career & Networking Hub (Connect-Alma-Bridge)
+# Alumni Career & Networking Hub (Connect-Alma-Bridge)
 
 <div align="center">
 
@@ -8,33 +8,31 @@
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-**A comprehensive professional networking platform connecting college students with alumni for mentorship, career opportunities, and meaningful connections.**
-
-[🚀 Live Demo](#) • [📖 Documentation](./docs) • [🐛 Report Bug](#) • [✨ Request Feature](#)
+A comprehensive professional networking platform connecting college students with alumni for mentorship, career opportunities, and meaningful connections.
 
 </div>
 
 ---
 
-## 🌟 Overview
+## Overview
 
-Connect-Alma-Bridge is an enterprise-grade networking platform designed to bridge the gap between current students and alumni. Built with modern web technologies, it provides real-time messaging, job board functionality, skill endorsements, and intelligent connection matching—all in a sleek, responsive interface.
+Connect-Alma-Bridge is an enterprise-grade networking platform designed to bridge the gap between current students and alumni. Built with modern web technologies, it provides real-time messaging, job board functionality, skill endorsements, and intelligent connection matching.
 
-### ✨ Key Features
+### Key Features
 
-- 🔐 **Secure Authentication** - JWT-based auth with role-based access control (Student/Alumni)
-- 👥 **Smart Networking** - Advanced alumni directory with filtering by department, graduation year, and expertise
-- 💼 **Job Board** - Post and apply to opportunities with automated application tracking
-- 💬 **Real-time Messaging** - WebSocket-powered instant messaging between connected users
-- 🏆 **Skill Endorsements** - Peer-validated skill system with endorsement tracking
-- 🔔 **Live Notifications** - Real-time updates for messages, connections, and job applications
-- 👤 **Rich Profiles** - Comprehensive user profiles with resume parsing and management
-- 🌐 **Groups & Communities** - Interest-based networking groups for specialized discussions
-- 📱 **Responsive Design** - Mobile-first UI with 95+ accessibility score
+- **Secure Authentication** - JWT-based auth with role-based access control (Student/Alumni)
+- **Smart Networking** - Advanced alumni directory with filtering by department, graduation year, and expertise
+- **Job Board** - Post and apply to opportunities with automated application tracking
+- **Real-time Messaging** - WebSocket-powered instant messaging between connected users
+- **Skill Endorsements** - Peer-validated skill system with endorsement tracking
+- **Live Notifications** - Real-time updates for messages, connections, and job applications
+- **Rich Profiles** - Comprehensive user profiles with resume parsing and management
+- **Groups & Communities** - Interest-based networking groups for specialized discussions
+- **Responsive Design** - Mobile-first UI with 95+ accessibility score
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Tech Stack
 
@@ -75,7 +73,7 @@ Connect-Alma-Bridge is an enterprise-grade networking platform designed to bridg
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -87,7 +85,7 @@ Connect-Alma-Bridge is an enterprise-grade networking platform designed to bridg
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/connect-alma-bridge.git
+   git clone https://github.com/deepan-alve/connect-alma-bridge.git
    cd connect-alma-bridge
    ```
 
@@ -140,7 +138,7 @@ Connect-Alma-Bridge is an enterprise-grade networking platform designed to bridg
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 connect-alma-bridge/
@@ -165,7 +163,7 @@ connect-alma-bridge/
 
 ---
 
-## 🎯 Core Functionality
+## Core Functionality
 
 ### 1. User Authentication & Profiles
 - Email/password authentication with Supabase Auth
@@ -210,7 +208,7 @@ connect-alma-bridge/
 
 ---
 
-## 🔧 API Documentation
+## API Documentation
 
 ### Authentication
 ```
@@ -252,22 +250,20 @@ POST   /api/messages         - Send message
 GET    /api/messages/:id     - Get conversation thread
 ```
 
-[View full API documentation →](./docs/API.md)
+---
+
+## Performance Metrics
+
+- **Page Load:** <2.5s average (First Contentful Paint)
+- **API Response:** <200ms average
+- **Message Latency:** <100ms (real-time)
+- **Lighthouse Score:** 95+ (Accessibility)
+- **Concurrent Users:** 500+ supported
+- **Security:** A+ (SSL Labs)
 
 ---
 
-## 📊 Performance Metrics
-
-- ⚡ **Page Load:** <2.5s average (First Contentful Paint)
-- 🚀 **API Response:** <200ms average
-- 💬 **Message Latency:** <100ms (real-time)
-- 📱 **Lighthouse Score:** 95+ (Accessibility)
-- 👥 **Concurrent Users:** 500+ supported
-- 🔒 **Security:** A+ (SSL Labs)
-
----
-
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run frontend tests
@@ -286,7 +282,7 @@ npm run test:coverage
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Frontend (Vercel/Netlify)
 ```bash
@@ -308,7 +304,7 @@ docker-compose up -d
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) first.
 
@@ -320,22 +316,13 @@ Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.m
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [shadcn-ui](https://ui.shadcn.com/) for beautiful UI components
 - [Supabase](https://supabase.com/) for the amazing BaaS platform
@@ -344,33 +331,6 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
-<div align="center">
+## Contact
 
-**⭐ Star this repo if you find it helpful!**
-
-Made with ❤️ and ☕
-
-</div>
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a1a6df18-81e1-4aa0-82aa-66ac109c8d8e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For questions or feedback, please open an issue on GitHub.
